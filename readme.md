@@ -22,3 +22,11 @@ go build -ldflags="-X 'package_path.variable_name=new_value'"
 # example 
 go build -o app -ldflags="-X 'main.version=my_version'"
 ```
+
+## how to get version? 
+```
+# in root of this repo
+./compile.sh 
+./app 
+./app version 
+```
