@@ -1,0 +1,1 @@
+go build -o app -ldflag="-X 'main.version=1.0.0'"
