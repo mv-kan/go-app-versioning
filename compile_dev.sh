@@ -1,1 +1,1 @@
-echo $(git describe --tags)-$(git rev-parse --short HEAD)
+echo $(git describe --tags)
